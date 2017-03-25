@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My App</title>
+    <link rel="stylesheet" href="dist/style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="dist/bundle.js"></script>
+    <div id="form-about"></div>
+    <script src="/static/bundle.js"></script>
+    <script>
+      const dataForm = [
+        {
+          title: 'Contact Name',
+          detail: 'Javier Rodriguez',
+        },
+        {
+          title: 'Company',
+          detail: 'Tus Parables y La Noche',
+        },
+        {
+          title: 'Website',
+          detail: '',
+        },
+      ]
+      // window.onload = function () {
+      //   HUB.formAboutNODE(dataForm);
+      // };
+    </script>
+    <button onClick="javascript:HUB.formAboutNODE(dataForm);">click</button>
+  </body>
+</html>
