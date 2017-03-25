@@ -1,3 +1,6 @@
+./DS_Store
+./webapp/.DS_Store
+assets/.DS_Store
 assets/redux/node_modules
 webapp/node_modules
 webapp/vendor
