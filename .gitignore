@@ -4,3 +4,4 @@ webapp/vendor
 webapp/Homestead.json
 webapp/Homestead.yaml
 webapp/.env
+webapp/config/database.php
