@@ -1,0 +1,27 @@
+body {
+  height: 100%;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  color: #636b6f;
+}
+
+body.backoffice {
+  background-color: #e9e9e9;
+}
+
+section.content {
+  min-height: 100%;
+  margin-bottom: -65px;
+}
+
+.footer, .push {
+  height: 65px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.text-middle {
+  vertical-align: middle;
+}

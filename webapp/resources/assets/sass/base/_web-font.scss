@@ -1,0 +1,284 @@
+/*--------------------------------------------------------------
+- Fonts Web
+--------------------------------------------------------------*/
+// @import 'fonts/webfontkit-20160723-192903/stylesheet.css';
+
+$f-12:12px;
+$f-14:14px;
+$f-16:16px;
+$f-18:18px;
+$f-20:20px;
+$f-22:22px;
+$f-24:24px;
+$f-26:26px;
+
+// Class
+.f-12{font-size: $f-12;}
+.f-14{font-size: $f-14;}
+.f-16{font-size: $f-16;}
+.f-18{font-size: $f-18;}
+.f-20{font-size: $f-20;}
+.f-22{font-size: $f-22;}
+.f-24{font-size: $f-24;}
+.f-26{font-size: $f-26;}
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+//font text
+.font-gray3{color: $gray3;}
+.font-red2{color: $red2;}
+.font-bold{font-weight: bold;}
+.font-body{font-size: 16px;}
+
+.font-header{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.font-title{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.font-sub-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.font-description-bold{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.font-description{
+  font-size: 16px;
+}
+
+.font-description-small{
+  font-size: 14px;
+}
+
+//Font Input
+.font-input{
+  font-size: 16px;
+}
+
+.font-input-small{
+  font-size: 14px;
+}
+
+.font-placeholder{
+  &::-webkit-input-placeholder, 
+  &::-moz-placeholder, 
+  &::-ms-input-placeholder,
+  &::-moz-placeholder {
+    font-size: 18px;
+    color: $gray5;
+  }
+}
+
+// .font-placeholder{
+//  font-size: 14px;
+//  color: $gray4;
+// }
+
+.font-sub-title-white{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+//button font
+.font-button{
+  font-size: 28px;
+  // font-weight: bold;
+}
+
+.font-button-small{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.font-tab{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+// // font face
+// @font-face {
+//   font-family: 'Walsheim-Black-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Black';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Black.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Bold-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Bold';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Bold.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Light-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'Walsheim-Light';
+  src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light.eot');
+  src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light.eot?#iefix') format('embedded-opentype'),
+       url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light.woff') format('woff'),
+       url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light.ttf') format('truetype'),
+       url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Light.svg#thaisans_neuebold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'Walsheim-Medium-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'Walsheim-Medium';
+  src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium.eot');
+  src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium.eot?#iefix') format('embedded-opentype'),
+       url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium.woff') format('woff'),
+       url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium.ttf') format('truetype'),
+       url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Medium.svg#thaisans_neuebold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'Walsheim-Regular-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Regular';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Regular.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Thin-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Thin';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Thin.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Ultra-Bold-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Ultra-Bold';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Bold.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Ultra-Light-Oblique';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light-Oblique.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light-Oblique.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light-Oblique.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light-Oblique.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light-Oblique.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Walsheim-Ultra-Light';
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light.eot');
+//   src: url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light.eot?#iefix') format('embedded-opentype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light.woff') format('woff'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light.ttf') format('truetype'),
+//        url('base/fonts/GT-Walsheim-Pro-Full-Web/GT-Walsheim-Pro-Ultra-Light.svg#thaisans_neuebold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
